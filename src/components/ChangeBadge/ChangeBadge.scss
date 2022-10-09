@@ -1,0 +1,14 @@
+.changeBadge{
+    border-radius: 6px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 63px;
+    &.increase{
+        background: rgba(77, 189, 152, 0.1);
+    }
+    &.decrease{
+        background: rgba(241, 88, 50, 0.1);
+    }
+}

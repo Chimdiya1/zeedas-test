@@ -1,0 +1,14 @@
+.work-stat{
+    .details{
+        display: flex;
+        margin-bottom: 25px;
+    }
+    .keys{
+        display: flex;
+        flex-wrap: wrap;
+        .statKey{
+            width: 50%;
+            margin-bottom: 1rem;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.section{
+    margin-bottom: 80px;
+    .sectionTop{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+        .select{
+            width: 125px;
+            background: #FFFFFF;
+            border-radius: 8px;
+            padding: .6rem 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+}

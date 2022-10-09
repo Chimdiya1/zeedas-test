@@ -1,0 +1,11 @@
+.overviewOption{
+    padding: .5rem 1rem;
+    border-left: 1px solid rgba(3, 41, 61, 0.1);
+    cursor: pointer;
+    &:hover{
+        border-left: 2px solid #23B3E8;
+    }
+    &.active{
+        border-left: 2px solid #23B3E8;
+    }
+}

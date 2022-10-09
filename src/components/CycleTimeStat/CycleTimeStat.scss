@@ -1,0 +1,29 @@
+.cts {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  .chart-container {
+    width: 45%;
+    position: relative;
+    // margin-right: 56px;
+    // margin-left: 48px;
+    .inner {
+      position: absolute;
+      top: calc(50% - 40px);
+      left: 0;
+      right: 0;
+      margin: auto;
+      width: 90px;
+      height: 80px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  .stat-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

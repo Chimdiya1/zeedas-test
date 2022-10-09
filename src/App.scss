@@ -1,0 +1,31 @@
+
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+.App{
+  display: flex;
+  position: relative;
+  background-color: #E5E5E5;
+  .dash-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 300px;
+  }
+  .dash-body{
+    padding: 0px 45px;
+  }
+}

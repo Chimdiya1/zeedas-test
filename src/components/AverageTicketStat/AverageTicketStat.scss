@@ -1,0 +1,14 @@
+.atd {
+  .details {
+    display: flex;
+    margin-bottom: 26px;
+    .detail {
+      // width: 50%;
+      div {
+        display: flex;
+        align-items: baseline;
+        margin-bottom: 4px;
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.projectBar{
+    position: fixed;
+    left: 80px;
+    background-color: #ffffff;
+    width: 220px;
+    height: 100vh;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    .overview-title{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 8px;
+    }
+}
