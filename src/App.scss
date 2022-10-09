@@ -29,3 +29,10 @@
     padding: 0px 45px;
   }
 }
+@media only screen and (max-width: 710px) {
+  .App{
+    .dash-content{
+      margin-left: 0px;
+    }
+  }
+}

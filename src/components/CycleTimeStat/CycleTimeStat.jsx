@@ -27,10 +27,10 @@ const options = {
 function CycleTimeStat() {
   return (
     <StatCard name="Cycle time">
-      <div className="cts">
-        <div style={{ position: "absolute", left: "0px", bottom: "-10px" }}>
+        <div style={{ position: "absolute", left: "16px", bottom: "16px" }}>
           <ChangeBadge type="increase">24%</ChangeBadge>
         </div>
+      <div className="cts">
         <div className="chart-container" style={{ width: "35%" }}>
           <Doughnut data={data} options={options} />
           <div className="inner">

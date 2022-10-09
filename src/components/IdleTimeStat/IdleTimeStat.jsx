@@ -57,7 +57,7 @@ export const data = {
   labels,
   datasets: [
     {
-      label: "Dataset 1",
+      label: "Idle",
       data: [80, 40, 40],
       backgroundColor: "rgba(3, 41, 61, 0.1)",
       barThickness: "flex",
@@ -66,7 +66,7 @@ export const data = {
       categoryPercentage: 0.4,
     },
     {
-      label: "Dataset 2",
+      label: "Productive",
       data: [30, 60, 70],
       backgroundColor: "#4DBD98",
       barThickness: "flex",

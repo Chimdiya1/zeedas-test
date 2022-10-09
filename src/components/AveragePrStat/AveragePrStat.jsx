@@ -18,7 +18,7 @@ function AveragePrStat() {
             <Text>Size</Text>
           </div>
         </div>
-        <div style={{ marginTop: "auto" }}>
+        <div style={{ position: "absolute", left: "16px", bottom: "16px" }}>
           <ChangeBadge type="increase">24%</ChangeBadge>
         </div>
       </div>

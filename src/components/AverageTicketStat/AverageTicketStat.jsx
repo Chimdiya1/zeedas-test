@@ -14,7 +14,7 @@ function AverageTicketStat() {
             <Text>Hours worked </Text>
           </div>
         </div>
-        <div style={{ marginTop: "auto" }}>
+        <div style={{ position: "absolute", left: "16px", bottom: "16px" }}>
           <ChangeBadge type="decrease">79%</ChangeBadge>
         </div>
       </div>
